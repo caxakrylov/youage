@@ -1,0 +1,8 @@
+Options All -Indexes
+Options +FollowSymLinks
+ErrorDocument 404 http://youage.ru
+ErrorDocument 403 http://youage.ru
+ErrorDocument 401 http://youage.ru
+RewriteEngine   on
+RewriteBase     /
+RewriteRule     ^index\.html$  / [R=permanent]
